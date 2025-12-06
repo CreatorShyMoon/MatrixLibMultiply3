@@ -101,7 +101,7 @@ void multiplyClassic(int** A, int** B, int** C, int m, int n, int p) {
 
 // Блочное умножение матриц
 void multiplyBlocked(int** A, int** B, int** C, int m, int n, int p, int blockSize) {
-    // Перебор блоков по строкам матрицы A
+    // Перебор блоков по строкам матрицы Ad
     for (int iBlock = 0; iBlock < m; iBlock += blockSize) {
         int iMax = min(iBlock + blockSize, m);   // Ограничиваем максимальный индекс для блока
 
