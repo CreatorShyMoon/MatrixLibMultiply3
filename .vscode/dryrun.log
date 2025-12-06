@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/albert32384/matrixlib'
+g++ -c src/MatrixLib.cpp -O2 -Wall -fPIC -I include -o src/MatrixLib.o
+ar rcs lib/libMatrixLib.a src/MatrixLib.o
+echo "Static library lib/libMatrixLib.a has been created."
+g++ -shared -o lib/libMatrixLib.dylib src/MatrixLib.o
+echo "Dynamic library lib/libMatrixLib.dylib has been created."
+make: Leaving directory `/Users/albert32384/matrixlib'
+ 

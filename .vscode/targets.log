@@ -1,0 +1,293 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sat Dec  6 21:34:33 2025
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 5)
+ 
+OBJ = src/MatrixLib.o
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile (from `Makefile', line 4)
+SRC = src/MatrixLib.cpp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 3)
+INCLUDES = -I include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/albert32384/matrixlib
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"ru","osLocale":"ru-ru","resolvedLanguage":"ru","defaultMessagesFile":"/Applications/Visual Studio Code-3.app/Contents/Resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/Users/albert32384/Library/Application Support/Code/clp/49bfe746bc422204610b6ae833cb29d3.ru/tcf.json","messagesFile":"/Users/albert32384/Library/Application Support/Code/clp/49bfe746bc422204610b6ae833cb29d3.ru/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/nls.messages.json","corruptMarkerFile":"/Users/albert32384/Library/Application Support/Code/clp/49bfe746bc422204610b6ae833cb29d3.ru/corrupted.info"},"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"49bfe746bc422204610b6ae833cb29d3.ru","_languagePackSupport":true,"_translationsConfigFile":"/Users/albert32384/Library/Application Support/Code/clp/49bfe746bc422204610b6ae833cb29d3.ru/tcf.json","_cacheRoot":"/Users/albert32384/Library/Application Support/Code/clp/49bfe746bc422204610b6ae833cb29d3.ru","_resolvedLanguagePackCoreLocation":"/Users/albert32384/Library/Application Support/Code/clp/49bfe746bc422204610b6ae833cb29d3.ru/bf9252a2fb45be6893dd8870c0bf37e2e1766d61","_corruptedFile":"/Users/albert32384/Library/Application Support/Code/clp/49bfe746bc422204610b6ae833cb29d3.ru/corrupted.info"}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 2)
+CFLAGS = -O2 -Wall -fPIC
+# makefile (from `Makefile', line 1)
+ 
+MAKEFILE_LIST :=  Makefile
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/opt/open-mpi/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.I2pYZnVJNA/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 6)
+STATIC_LIB = lib/libMatrixLib.a
+# environment
+PWD = /Users/albert32384/matrixlib
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
+# environment
+HOME = /Users/albert32384
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/albert32384/Library/Application Support/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61
+# environment
+LOGNAME = albert32384
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 7)
+DYNAMIC_LIB = lib/libMatrixLib.dylib
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 1)
+CC = g++
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = albert32384
+# makefile
+.DEFAULT_GOAL := all
+# environment
+APPLICATION_INSIGHTS_NO_STATSBEAT = true
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/z6/30vkq3z57njb4ft0mxkjl9wr0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/albert32384/Library/Application Support/Code/1.10-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.69180814.69180820
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = file:///Users/albert32384/.vscode/extensions/ms-ceintl.vscode-language-pack-ru-1.106.2025111209/translations/extensions/vscode.json-language-features.i18n.json
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x7:0x31
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 74172
+# variable set hash-table stats:
+# Load=72/1024=7%, Rehash=0, Collisions=6/104=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 49141403): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: static dynamic
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+src/MatrixLib.o: src/MatrixLib.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2025-05-10 01:24:37
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 24):
+	$(CC) -c $(SRC) $(CFLAGS) $(INCLUDES) -o $(OBJ)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2025-05-10 01:26:53
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+static: src/MatrixLib.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := static
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/MatrixLib.o
+# automatic
+# | := 
+# automatic
+# < := src/MatrixLib.o
+# automatic
+# ^ := src/MatrixLib.o
+# automatic
+# ? := src/MatrixLib.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  commands to execute (from `Makefile', line 14):
+	ar rcs $(STATIC_LIB) $(OBJ)
+	@echo "Static library $(STATIC_LIB) has been created."
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dynamic: src/MatrixLib.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 19):
+	$(CC) -shared -o $(DYNAMIC_LIB) $(OBJ)
+	@echo "Dynamic library $(DYNAMIC_LIB) has been created."
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 28):
+	rm -f $(OBJ) $(STATIC_LIB) $(DYNAMIC_LIB)
+	@echo "Cleaned."
+	
+
+# Not a target:
+src/MatrixLib.cpp:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2025-05-10 01:24:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Dec  6 21:34:33 2025
+
+ 
